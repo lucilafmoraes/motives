@@ -39,10 +39,9 @@ const divResp = document.querySelector("#resposta");
 const btn = document.querySelector("#button");
 
 btn.onclick = function () {
+    divResp.innerHTML += "";
     let number = document.querySelector("#number").value;
-    console.log(number)
-    console.log(arrayL)
-    divResp.innerHTML += arrayL[number];
+    divResp.innerHTML = arrayL[number];
 }
 
 

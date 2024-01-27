@@ -1,4 +1,56 @@
 body{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+
+}
+
+footer{
+    text-align: left;
+    background-color: black;
+    color: aliceblue;
+    bottom: 0;
+    left: 0;
+    height: 40px;
+    position: fixed;
+    width: 100%;
+}
+
+h2{
+    color: red;
+}
+
+#button{
+    width:150px;
+    height:55px;
+    background: linear-gradient(to left top, #a70130 50%, #c20909 50%);
+    border-style: none;
+    color:#fff;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-family: 'Lato';
+    font-weight: 600;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    padding: 0px;
+    overflow: hidden;
+    transition: all .5s;
+    box-shadow: 0px 1px 2px rgba(0,0,0,.2);
+}
+
+footer {
+    background-color: rgb(186, 42, 42);
+    color: #fff;
+    font-size: 14px;
+    bottom: 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 999;
+}
+
+footer p {
+    margin: 10px 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida  Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
